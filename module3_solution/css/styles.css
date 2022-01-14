@@ -1,0 +1,57 @@
+body {
+	font-size: 16px;
+	color: white;
+	background-color: #F0B686;
+	font-family: poppin;
+}
+
+#header-nav {
+	background-color: #E58751;
+	border-radius: 0;
+	border: 0;
+	color: white;
+	font-family: poppin;
+}
+
+.navbar-brand p {
+	color: white;
+	font-size: 25px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: white;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #E58751;
+}
+
+#home {
+	margin-bottom: 30px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: white;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
